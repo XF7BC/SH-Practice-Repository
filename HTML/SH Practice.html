@@ -1,0 +1,99 @@
+<html>
+    <head> 
+        <title> First Practice </title> 
+    </head>
+    <body> 
+        
+        <h1> Table of Contents  </h1>
+        <ul>
+            <li> Practice One: Tables</li>
+            <li> Practice Two: Embedding Images, Videos and Audios</li>
+            <li> Practice Three: Forms</li>
+        </ul>
+       
+     <table>
+            <caption> Student Information Table</caption>
+        <thead> 
+              <tr>
+                    <th> First Name </th>
+                    <th> Last Name </th>
+                    <th>  Level </th>
+                    <th> Faculty  </th>
+                    <th> Department  </th>
+                    <th> Phone Number  </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Abiola </td>
+                    <td> Ajibola </td>
+                    <td> 200 </td>
+                    <td> School of Engineering and Engineering Technology  </td>
+                    <td> Metallurgical and Materials Engineering </td>
+                    <td> 08123456789 </td>
+                </tr>
+                
+                <tr>
+                    <td> Adeosun </td>
+                    <td> John </td>
+                    <td> 200 </td>
+                    <td> School of Computing  </td>
+                    <td> Computer Science </td>
+                    <td> 08123456789 </td>
+                </tr>
+                <tr>
+                    <td> Windapo </td>
+                    <td> Olaoluwa </td>
+                    <td> 200 </td>
+                    <td> School of Engineering and Engineering Technology </td>
+                    <td> Metallurgical and Materials Engineering  </td>
+                    <td> 08123456789 </td>
+                </tr>
+                <tr>
+                    <td> Orioke </td>
+                    <td> Ayobami </td>
+                    <td> 200 </td>
+                    <td> School of Computing  </td>
+                    <td> Software Engineering </td>
+                    <td> 08123456789 </td>
+                </tr>
+                <tr>
+                    <td> David </td>
+                    <td> Daniel </td>
+                    <td> 400 </td>
+                    <td> School of Computing  </td>
+                    <td> Computer Science</td>
+                    <td> 08123456789 </td>
+                </tr>
+            </tbody>
+        </table>
+        <br/><br/><br/><br/>
+        <form action="handler.php" method="get">
+            <label for="Photo ID"> Student Photo ID </label> <br/>
+            <input type="image" name="pid" placeholder="photo id"/><br><br><br><br>
+            <label for="username"> Username</label> <br/>
+            <input type="text" name="username" placeholder="Enter your username"/><br><br>
+            <label for="password"> Password</label> <br/>
+            <input type="password" name="password" placeholder="Enter your password"/><br><br>
+            <label for="Full Name"> Full Name </label> <br/>
+            <input type="text" name="fname" placeholder="Enter your phone number"/><br><br>
+            <label for="dob"> Date of Birth </label> <br/>
+            <input type="date" name="dob"/><br><br>
+            <input type="radio" name="gender" value="Male"/> Male
+            <input type="radio" name="gender" value="Female"/>Female <input type="radio" name="gender" value="Others"/>Others<br><br>
+            <label for="sog"> State of Origin </label> <br/>
+            <input type="text" name="sog"/><br><br>
+            <label for="lga"> Local Government Area </label> <br/>
+            <input type="text" name="lga"/><br><br>
+            <label for="email"> E-mail </label> <br/>
+            <input type="email" name="email" placeholder="Enter your e-mail"/><br><br>
+            <label for="pnumber"> Phone Number </label> <br/>
+            <input type="tel" name="pnumber" maxlength="14" /><br><br>
+            <label for="zipcode"> Zip Code </label> <br/>
+            <input type="text" name="zcode"/><br><br>
+            
+            <input type="submit"/><br><br>
+        </form>
+        
+    </body>
+</html>
