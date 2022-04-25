@@ -1,6 +1,6 @@
 
 body {  background-color: black ;
-width:1440px;
+width:auto;
 max-width: 100%;
 color: hsl(0, 0%, 100%);
 margin: auto;
@@ -60,25 +60,29 @@ text-align: left;}
     margin-right: auto;
     display: flex;
 align-self: center;
-width: 600px;
+width: auto;
 }
 
 
-#D1 { width: 600px;
+#D1 { width: auto;
     max-width: 100%;
 }
 #P1{font-family: 'Raleway', sans-serif;
     font-weight: 400, 700;
 text-align: center;
-width: 600px;}
+width: auto;
+max-width: 100%;}
  #P2 { width: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-#D2 { width: 800px;
+#D2 { width: 600px;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #td1 { align-content: center;
     text-align: center;
@@ -138,7 +142,9 @@ text-align: left;
 text-decoration: none;}
 #div5 {
     background-color: hsl(218, 28%, 13%);
-    max-width: 100%;}
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;}
 .T3 { align-self: center;
 margin-left: auto;
 margin-right: auto;
